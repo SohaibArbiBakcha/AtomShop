@@ -22,7 +22,7 @@ export const query = graphql`
   {
     img: file(relativePath: { eq: "defaultBackground.jpeg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 1080) {
+        fluid(quality: 100, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
