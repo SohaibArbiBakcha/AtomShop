@@ -25,11 +25,25 @@ h6 {
 }
 
 .default-background {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   background-position: center;
   background-size: cover;
+}
+
+.btn-spy {
+  color: var(--mainDark);
+  border-color: var(--mainDark) !important;
+}
+
+.btn-spy:hover {
+  background: var(--mainDark);
+  color: var(--mainWhite) !important;
+}
+
+.footer {
+  background: var(--mainDark);
 }

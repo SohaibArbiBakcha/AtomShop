@@ -5,15 +5,15 @@ import { Info } from "../components/Home/info"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = ({ data }) => {
+const about = ({ data }) => {
   console.log(data.img.childImageSharp.fluid)
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="About" />
       <BackgroundSection
         styleClass="default-background"
         img={data.img.childImageSharp.fluid}
-        title="Atom Shop"
+        title="About Atom"
       />
       <Info />
     </Layout>
@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "defaultBackground.jpeg" }) {
+    img: file(relativePath: { eq: "aboutPageNasa.jpg" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
@@ -32,4 +32,4 @@ export const query = graphql`
   }
 `
 
-export default IndexPage
+export default about
