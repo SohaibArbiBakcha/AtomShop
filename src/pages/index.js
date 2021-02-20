@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "shopBackground.jpg" }) {
+    img: file(relativePath: { eq: "defaultBackground.jpg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 4160) {
+        fluid(quality: 100, maxWidth: 3200) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
