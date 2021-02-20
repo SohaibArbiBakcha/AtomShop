@@ -1,6 +1,6 @@
 import { graphql } from "gatsby"
 import React from "react"
-import BackgroundSection from "../components/Global/BackgroundSection"
+import { BackgroundSection } from "../components/Global/BackgroundSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -20,9 +20,9 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "defaultBackground.jpg" }) {
+    img: file(relativePath: { eq: "default-background.jpeg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 800) {
+        fluid(quality: 100, maxWidth: 1080) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
