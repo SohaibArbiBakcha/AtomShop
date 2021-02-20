@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "default-background.jpeg" }) {
+    img: file(relativePath: { eq: "defaultBackground.jpeg" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 1080) {
           ...GatsbyImageSharpFluid_withWebp
