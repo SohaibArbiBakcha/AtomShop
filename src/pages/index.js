@@ -8,7 +8,7 @@ export const query = graphql`
   {
     img: file(relativePath: { eq: "defaultBackground.jpg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 3200) {
+        fluid(quality: 100, maxWidth: 720) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
