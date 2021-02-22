@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `AtomShop`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@AtomShop`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `bg`,
+        path: `${__dirname}/src/backgrounds`,
       },
     },
     `gatsby-transformer-sharp`,

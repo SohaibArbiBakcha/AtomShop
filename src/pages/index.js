@@ -1,6 +1,7 @@
 import { graphql } from "gatsby"
 import React from "react"
 import { BackgroundSection } from "../components/Global/BackgroundSection"
+import BackgroundSlid from "../components/Global/BackgroundSlider"
 import { Info } from "../components/Home/info"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,11 +11,12 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <BackgroundSection
+      {/* <BackgroundSection
         styleClass="default-background"
         img={data.img.childImageSharp.fluid}
         title="Atom Shop"
-      />
+      /> */}
+      <BackgroundSlid title="Atom Shop" styleClass="default-background" />
       <Info />
     </Layout>
   )
