@@ -17,7 +17,7 @@ const BackgroundSlid = ({ styleClass, title, children }) => {
                 sourceInstanceName
                 childImageSharp {
                   fluid(maxWidth: 4000, quality: 100) {
-                    src
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
