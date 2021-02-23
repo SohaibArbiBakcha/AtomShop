@@ -38,9 +38,7 @@ const BackgroundSlid = ({ styleClass, title, children }) => {
         ]}
         // pass down standard element props
         style={{}}
-      >
-        {children}
-      </BackgroundSlider>
+      ></BackgroundSlider>
     </section>
   )
 }
