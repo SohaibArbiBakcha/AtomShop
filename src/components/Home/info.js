@@ -10,12 +10,14 @@ export const Info = () => {
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At quos
-              in quidem commodi sit, cumque ut? Totam aliquam minima nostrum
-              laudantium cum dolores nulla labore, accusamus quasi magnam
-              mollitia consectetur nesciunt distinctio aspernatur repellendus
-              facilis voluptas autem fugit, fugiat fuga. Ipsum, alias illo
-              doloremque possimus repellat vel. Qui, amet harum?
+              Les principaux objectifs de la maison intelligente sont : le
+              confort et la sécurité. D’un côté, la domotique permet d’optimiser
+              le confort de vie des occupants car celle-ci simplifie les tâches
+              du quotidien. Grâce à elle par exemple, il n’y a plus à bouger du
+              canapé pour activer le chauffage ou pour fermer les stores. Et il
+              en va de même lorsqu’il y a lieu de sortir de la maison car on n’a
+              plus besoin de descendre de la voiture pour ouvrir ou pour fermer
+              le portail.
             </p>
             <Link to="/about">
               <button className="btn text-uppercase btn-spy ">
