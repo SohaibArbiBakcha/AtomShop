@@ -4,7 +4,7 @@ import { Title } from "../Global/Title"
 
 export const Info = () => {
   return (
-    <section className="py-5 mt-5">
+    <section className="info py-5 mt-5">
       <div className="container">
         <Title title="About Smart Home" />
         <div className="row">
