@@ -30,6 +30,7 @@ export const query = graphql`
         node {
           id: contentful_id
           title
+          category
           description {
             description
           }

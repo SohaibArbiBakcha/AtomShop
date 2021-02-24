@@ -29,12 +29,12 @@ const BackgroundSlid = ({ styleClass, title, children }) => {
         duration={8} // how long an image is shown
         // specify images to include (and their order) according to `relativePath`
         images={[
-          "defaultBackground",
-          "aboutPageNasa.jpg",
-          "luis-quintero.jpg",
-          "medhat-ayad.jpg",
-          "michal-hajtas.jpg",
-          "pixabay.jpg",
+          "atomShop1.jpg",
+          "atomShop2.jpeg",
+          "atomShop3.jpg",
+          "atomShop4.jpg",
+          "atomShop5.jpg",
+          "atomShop6.jpg",
         ]}
         // pass down standard element props
         style={{}}
