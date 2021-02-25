@@ -1,5 +1,4 @@
 import GatsbyImage from "gatsby-image"
-import { node } from "prop-types"
 import React, { useState } from "react"
 import { Title } from "../Global/Title"
 
@@ -39,9 +38,9 @@ const Menu = ({ items }) => {
   }
   if (state.items.length > 0) {
     return (
-      <section className="menu py-5">
+      <section className="menu min-vh-100 py-5">
         <div className="container">
-          <Title title="Nouveaux produits" />
+          <Title title="New Products" />
           {/* categories */}
           <div className="row">
             <div className="col-10 mx-auto text-center">
