@@ -2,6 +2,7 @@ import React from "react"
 import { Title } from "../components/Global/Title"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ProductsList from "../components/products/Products"
 
 const Products = () => {
   return (
@@ -11,16 +12,17 @@ const Products = () => {
         <Title title="here is our Products" />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="Search"
                 aria-label="Search"
               />
             </div>
           </div>
         </div>
+        <ProductsList />
       </div>
     </Layout>
   )
