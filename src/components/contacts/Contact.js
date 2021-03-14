@@ -22,6 +22,7 @@ const ContactFrom = () => {
             icon: "success",
             button: "close",
           })
+          e.target.reset()
         },
         error => {
           swal({
