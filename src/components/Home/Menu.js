@@ -45,20 +45,18 @@ const Menu = ({ items }) => {
           <div className="row">
             <div className="col-10 mx-auto text-center">
               {state.categories.map((category, index) => {
-                {
-                  return (
-                    <button
-                      type="button"
-                      className="btn btn-spy text-capitalize m-2"
-                      key={index}
-                      onClick={() => {
-                        handleItem(category)
-                      }}
-                    >
-                      {category}
-                    </button>
-                  )
-                }
+                return (
+                  <button
+                    type="button"
+                    className="btn btn-spy text-capitalize m-2"
+                    key={index}
+                    onClick={() => {
+                      handleItem(category)
+                    }}
+                  >
+                    {category}
+                  </button>
+                )
               })}
             </div>
           </div>

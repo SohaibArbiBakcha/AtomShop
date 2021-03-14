@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      section {
+        width: 100%;
+      }
+      .pack-items {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .pack-items button {
+        border: 1px solid black;
+        background-color: none;
+      }
+      .d-none {
+        display: none;
+      }
+      section .packss {
+        display: gird;
+        grid-template-rows: 1fr 1fr 1fr;
+      }
+      .packs {
+        display: flex;
+        justify-content: space-between;
+      }
+      .packs div {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="pack-items">
+        <button id="site">div1</button>
+        <button id="app">div2</button>
+        <button id="des">div3</button>
+        <button id="marc">div4</button>
+      </div>
+      <div class="packss">
+        <div class="pack1 packs d-none">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <div class="pack2 packs">
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+        </div>
+        <div class="pack3 packs">
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+        </div>
+        <div class="pack1 packs">
+          <div>10</div>
+          <div>11</div>
+          <div>12s</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

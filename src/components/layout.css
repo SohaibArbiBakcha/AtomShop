@@ -48,6 +48,7 @@ h6 {
   background: var(--mainDark);
 }
 
-.info {
+.info,
+.contat {
   background: var(--mainGray);
 }
