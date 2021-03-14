@@ -37,7 +37,7 @@ const ContactFrom = () => {
     <section className="contact py-5">
       <Title title="Contact us" />
       <div className="row">
-        <div className="col-10 col-sm-8 col-md-6">
+        <div className="col-10 col-sm-8 col-md-6 mx-auto">
           <form onSubmit={sendEmail}>
             {/* name */}
             <div className="form-group">
