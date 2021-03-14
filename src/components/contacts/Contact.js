@@ -43,6 +43,7 @@ const ContactFrom = () => {
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
+                required
                 type="text"
                 id="name"
                 className="form-control"
@@ -54,6 +55,7 @@ const ContactFrom = () => {
             <div className="form-group">
               <label htmlFor="email">Email</label>
               <input
+                required
                 type="email"
                 id="email"
                 className="form-control"
@@ -68,6 +70,7 @@ const ContactFrom = () => {
                 name="description"
                 id="description"
                 className="form-control"
+                required
                 rows="5"
                 placeholder="Your Description"
               ></textarea>
